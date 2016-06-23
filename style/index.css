@@ -1,0 +1,344 @@
+/*轮播图*/
+.banner {
+    clear: both;
+    width: 100%;
+    height: 560px;
+}
+
+/*promo*/
+.promo {
+    position: relative;
+    overflow: hidden;
+}
+.promo .promo-main {
+    position: absolute;
+}
+.promo .promo-main .promo-panel {
+    float: left;
+}
+.promo .promo-main .banner-item {
+    width: 100%;
+    height: 560px;
+}
+.banner .promo-panel a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.promo .promo-main .promo-panel img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.promo .promo-extra .promo-nav {
+    position: absolute;
+    z-index: 10;
+    bottom: 15px;
+    left: 50%;
+    height: 13px;
+    margin-left: -38px;
+    font-size: 0;
+    text-align: center;
+}
+.promo .promo-extra .promo-nav .promo-item {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #b7b7b7;
+}
+.promo .promo-extra .promo-nav .promo-select {
+    background: #00bfcd;
+}
+.promo .promo-extra .promo-page {
+    display: none;
+}
+.promo .promo-extra .promo-page a {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 60px;
+    margin-top: -30px;
+    font-family: 'simsun';
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 60px;
+    transition: all  .3s;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+}
+.promo .promo-extra .promo-page a:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+.promo .promo-extra .promo-prev {
+    left: 0;
+}
+.promo .promo-extra .promo-next {
+    right: 0;
+}
+
+
+/*精密体检*/
+.exam {
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    border-bottom: 1px solid #ebeef2;
+}
+.exam .exam-inner {
+    width: 1000px;
+    min-height: 180px;
+    margin: 75px auto 0;
+    background: url(../images/index_jm.jpg) no-repeat left bottom;
+}
+.exam-inner .exam-desc {
+    width: 630px;
+    margin-left: 370px;
+}
+.exam-inner .exam-desc h2 {
+    display: inline;
+    font-size: 32px;
+    color: #00bfcd;
+}
+.exam-inner .exam-desc span {
+    font-size: 16px;
+    color: #cecece;
+}
+.exam-inner .exam-desc p{
+    font-size: 14px;
+    line-height: 28px;
+}
+.exam-inner .exam-desc .exam-more{
+    display: block;
+    width: 90px;
+    height: 28px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 500;
+    color: #fff;
+    background: #00bfcd;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.exam-inner .exam-desc .exam-more:hover{
+    background: #03b0bd;
+}
+.exam-inner .exam-desc .exam-more:before{
+    content: " ";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    background: url(../images/btn_icon.png) no-repeat center center;
+    vertical-align: -2px;
+}
+
+
+/*海外医疗*/ 
+.medical{
+    clear: both;
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+.medical a:hover{
+    color: #000;
+}
+.medical h2{
+    font-size: 32px;
+    color: #00bfcd;
+}
+.medical span {
+    display: block;
+    font-size: 16px;
+    color: #cecece;
+}
+.medical .medical-desc{
+    width: 1000px;
+    margin: 50px auto 0;
+}
+.medical-desc .medical-figure{
+    float: left;
+    width: 222px;
+    margin: 0 55px;
+}
+.medical-desc .medical-figure dt{
+    width: 168px;
+    height: 168px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.medical-desc .medical-figure dt img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.medical-desc .medical-figure dd h4{
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/*管家服务*/
+.service{
+    clear: both;
+    padding: 60px 0;
+    background: #f3f6f8;
+}
+.service h2{
+    font-size: 32px;
+    color: #00bfcd;
+    text-align: center;
+}
+.service span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #cecece;
+}
+.service .service-desc{
+    width: 1000px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.service-desc .service-figure{
+    float: left;
+    width: 333px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+}
+.service-desc .item1{
+    width: 330px;
+    height: 380px;
+}
+.service-desc .service-figure dt{
+    width: 100%;
+    height: 100%;
+}
+.service-desc .service-figure dt img{
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+.service-desc .service-figure dd{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.service-desc .service-figure dd h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.service-desc .item3 dd{
+    font-size: 16px;
+}
+.service-desc .item3 dd h4{
+    font-size: 26px;
+    font-weight: 800;
+}
+
+
+/*会员健康数据库*/ 
+.database{
+    clear: both;
+    width: 100%;
+}
+.database .database-inner{
+    width: 1000px;
+    min-height: 380px;
+    margin: 80px auto 0;
+    background: url(../images/index_huiy.jpg) no-repeat right bottom;
+    overflow: hidden;
+}
+.database-inner .database-desc{
+    width: 520px;
+    margin: 95px 0  0 75px;
+}
+.database-inner .database-desc h2{
+    display: inline;
+    font-size: 32px;
+    color: #00bfcd;
+}
+.database-inner .database-desc span {
+    font-size: 16px;
+    color: #cecece;
+}
+.database-inner .database-desc p{
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+/*页尾*/
+.footer{
+    clear: both;
+    width: 100%;
+    height: 160px;
+    background: #00bfcd;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer .footer-inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer .footer-about{
+    float: left;
+}
+.footer .footer-about ul{
+    margin-top: 50px;
+}
+.footer .footer-about ul li{
+    display: inline;
+    line-height: 30px;
+}
+.footer .footer-about ul .item1:before{
+    display: none;
+}
+.footer .footer-about ul li:before{
+    content: " ";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 10px;
+    background: #fff;
+    vertical-align: -1px;
+}
+.footer .hotline{
+    float: right;
+    margin-top: 55px;
+}
+.footer .hotline i{
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin-right: 5px;
+    background: url(../images/kefu_icon.png) no-repeat center center;
+}
+.footer .hotline span{
+    float: right;
+    line-height: 1;
+}
+.footer .hotline em{
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
