@@ -1,0 +1,300 @@
+/*头部banner*/
+.top-banner{
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    height: 330px;
+}
+.top-banner a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*日本医疗*/
+.medical{
+    width: 100%;
+    min-width: 1000px;
+    margin: 75px 0;
+}
+.medical .medical-inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.medical-inner h2{
+    font-size: 32px;
+    line-height: 35px;
+    color: #00bfcd;
+    text-align: center;
+}
+.medical-inner span{
+    display: block;
+    font-size: 16px;
+    color: #cecece;
+    text-align: center;
+}
+.medical-inner p{
+    width: 700px;
+    margin: 15px auto 0;
+    font-size: 14px;
+    line-height: 26px;
+}
+.medical-inner .medical-desc{
+    overflow: hidden;
+}
+.medical-inner .medical-desc a{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.medical-inner .medical-desc a:hover{
+    color: #000;
+}
+.medical-inner .medical-desc a:hover img{
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+.medical-inner .medical-desc .medical-figure{
+    float: left;
+    width: 168px;
+    margin: 40px 82px 0;
+}
+.medical-inner .medical-desc .medical-figure dt{
+    width: 100%;
+    height: 168px;
+    display: table-cell;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+.medical-inner .medical-desc .medical-figure dt img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.medical-inner .medical-desc .medical-figure dd{
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*医疗器械*/
+.apparatus{
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    height: 400px;
+}
+
+/*优势*/
+.advantage{
+    width: 100%;
+    min-width: 1000px;
+    margin: 70px 0;
+    overflow: hidden;
+}
+.advantage h2{
+    font-size: 32px;
+    line-height: 35px;
+    color: #00bfcd;
+    text-align: center;
+}
+.advantage span{
+    display: block;
+    font-size: 16px;
+    color: #cecece;
+    text-align: center;
+}
+.advantage .advantage-desc{
+    width: 1000px;
+    margin:0 auto;
+}
+.advantage-desc .advantage-figure{
+    float: left;
+    width: 280px;
+    margin: 40px 80px 0 0;
+}
+.advantage-desc .item3,.advantage .advantage-desc .item6{
+    margin-right: 0;
+}
+.advantage-desc .advantage-figure dt{
+    width: 100%;
+    height: 152px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.advantage-desc .advantage-figure dt img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.advantage-desc .advantage-figure dd{
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.advantage-desc .advantage-figure dd h3{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+/*就诊环境、酒店*/
+.hotel{
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    padding-top: 55px;
+    padding-bottom: 100px;
+    background: #f3f6f8;
+}
+.hotel h2{
+    font-size: 32px;
+    line-height: 35px;
+    color: #00bfcd;
+    text-align: center;
+}
+.hotel span{
+    display: block;
+    font-size: 16px;
+    color: #cecece;
+    text-align: center;
+}
+.hotel .hotel-desc{
+    width: 1000px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.hotel .hotel-desc .hotel-item{
+    float: left;
+    width: 335px;
+    height: 190px;
+}
+.hotel .hotel-desc .item1{
+    width: 330px;
+    height: 380px;
+}
+.hotel .hotel-desc .hotel-item img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*合作医院*/
+.hospital{
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.hospital h2{
+    font-size: 32px;
+    line-height: 35px;
+    color: #00bfcd;
+    text-align: center;
+}
+.hospital span{
+    display: block;
+    font-size: 16px;
+    color: #cecece;
+    text-align: center;
+}
+.hospital  .hospital-desc{
+    width: 1000px;
+    margin: 40px auto 0;
+}
+.hospital-desc .hospital-item{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.hospital-desc .hospital-item .hospital-imgbox{
+    float: left;
+    width: 280px;
+    height: 170px;
+}
+.hospital-desc .hospital-item .hospital-imgbox img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.hospital-desc .hospital-item .hospital-content{
+    float: left;
+    width: 400px;
+    margin: 0 40px;
+}
+.hospital-desc .hospital-item .hospital-content h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+.hospital-desc .hospital-item .hospital-content p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px; 
+}
+.hospital-desc .hospital-item .hospital-content .feedback{
+    margin-top: 20px;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dt{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dt img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dd{
+    float: left;
+    width: 338px;
+    height: 36px;
+    margin: 7px 0 0 10px; 
+    text-indent: 20px;
+    line-height: 36px;
+    background: url(../images/talk.png) no-repeat left center;
+}
+.hospital-desc .hospital-item .booking{
+    float: right;
+    width: 140px;
+}
+.hospital-desc .hospital-item .booking ul{
+    margin-top: 30px;
+}
+.hospital-desc .hospital-item .booking ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #00bfcd;
+    text-align: center;
+}
+.hospital-desc .hospital-item .booking ul li .booking-btn{
+    display: block;
+    width: 114px;
+    height: 32px;
+    margin: 20px auto 0;
+    color: #fff;
+    line-height: 32px;
+    font-weight: 500;
+    background: #00bfcd;
+    border-radius: 3px;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+.hospital-desc .hospital-item .booking ul li .booking-btn:hover{
+    background: #06adb9;
+}
+
+/*底部banner*/
+.bottom-banner{
+    width: 100%;
+    min-width: 1000px;
+    height: 296px;
+    margin-top: 20px;
+}

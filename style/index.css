@@ -2,6 +2,7 @@
 .banner {
     clear: both;
     width: 100%;
+    min-width: 1000px;
     height: 560px;
 }
 
@@ -144,11 +145,23 @@
 .medical{
     clear: both;
     width: 100%;
+    min-width: 1000px;
     padding: 70px 0;
     text-align: center;
 }
+.medical a{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;    
+}
 .medical a:hover{
     color: #000;
+}
+.medical a:hover img{
+    opacity: 0.7;
+    filter: alpha(opacity=50);    
 }
 .medical h2{
     font-size: 32px;
@@ -190,6 +203,8 @@
 /*管家服务*/
 .service{
     clear: both;
+    width: 100%;
+    min-width: 1000px;
     padding: 60px 0;
     background: #f3f6f8;
 }
@@ -254,6 +269,7 @@
 .database{
     clear: both;
     width: 100%;
+    min-width: 1000px;
 }
 .database .database-inner{
     width: 1000px;
@@ -278,67 +294,4 @@
 .database-inner .database-desc p{
     font-size: 14px;
     line-height: 28px;
-}
-
-
-/*页尾*/
-.footer{
-    clear: both;
-    width: 100%;
-    height: 160px;
-    background: #00bfcd;
-    color: #fff;
-}
-.footer a{
-    color: #fff;
-}
-.footer a:hover{
-    text-decoration: underline;
-}
-.footer .footer-inner{
-    width: 1000px;
-    margin: 0 auto;
-}
-.footer .footer-about{
-    float: left;
-}
-.footer .footer-about ul{
-    margin-top: 50px;
-}
-.footer .footer-about ul li{
-    display: inline;
-    line-height: 30px;
-}
-.footer .footer-about ul .item1:before{
-    display: none;
-}
-.footer .footer-about ul li:before{
-    content: " ";
-    display: inline-block;
-    width: 1px;
-    height: 11px;
-    margin: 0 10px;
-    background: #fff;
-    vertical-align: -1px;
-}
-.footer .hotline{
-    float: right;
-    margin-top: 55px;
-}
-.footer .hotline i{
-    float: left;
-    width: 34px;
-    height: 34px;
-    margin-right: 5px;
-    background: url(../images/kefu_icon.png) no-repeat center center;
-}
-.footer .hotline span{
-    float: right;
-    line-height: 1;
-}
-.footer .hotline em{
-    display: block;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
 }
