@@ -1,0 +1,260 @@
+/*头部banner*/
+.top-banner {
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    height: 330px;
+}
+.top-banner a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*欧洲医疗*/
+.medical {
+    width: 100%;
+    min-width: 1000px;
+    margin-top: 75px;
+}
+.medical .medical-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.medical-inner h2 {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #00bfcd;
+}
+.medical-inner span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #cecece;
+}
+.medical-inner .medical-desc {
+    overflow: hidden;
+}
+.medical-inner .medical-desc a {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.medical-inner .medical-desc a:hover {
+    color: #000;
+}
+.medical-inner .medical-desc a:hover img {
+    opacity: .7;
+    filter: alpha(opacity=50);
+}
+.medical-inner .medical-desc .medical-figure {
+    float: left;
+    width: 168px;
+    margin-top: 40px;
+    margin-right: 109px;
+}
+.medical-inner .medical-desc .last-item {
+    margin-right: 0;
+}
+.medical-inner .medical-desc .medical-figure dt {
+    display: table-cell;
+    width: 100%;
+    height: 168px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.medical-inner .medical-desc .medical-figure dt img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.medical-inner .medical-desc .medical-figure dd {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*瑞士抗衰老*/
+.antifading {
+    width: 100%;
+    height: 405px;
+    margin-top: 75px;
+    background: url(../images/eur_bg.jpg) no-repeat center center #f3f6f8;
+}
+.antifading .antifading-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.antifading-inner .antifading-desc {
+    float: right;
+    width: 450px;
+    margin: 125px 45px 0 0;
+}
+.antifading-inner .antifading-desc h2 {
+    font-size: 32px;
+    line-height: 35px;
+    color: #00bfcd;
+}
+.antifading-inner .antifading-desc p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/*就诊环境*/
+.environment {
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    margin-top: 70px;
+}
+.environment h2 {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #00bfcd;
+}
+.environment span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #cecece;
+}
+.environment .environment-desc {
+    overflow: hidden;
+    width: 1000px;
+    margin: 50px auto 0;
+}
+.environment .environment-desc .environment-item {
+    float: left;
+    width: 335px;
+    height: 190px;
+}
+.environment .environment-desc .item1 {
+    width: 330px;
+    height: 380px;
+}
+.environment .environment-desc .environment-item img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*合作医院*/
+.hospital {
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1000px;
+    margin-top: 75px;
+}
+.hospital h2 {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #00bfcd;
+}
+.hospital span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #cecece;
+}
+.hospital  .hospital-desc {
+    width: 1000px;
+    margin: 40px auto 0;
+}
+.hospital-desc .hospital-item {
+    width: 100%;
+    margin-bottom: 80px;
+}
+.hospital-desc .hospital-item .hospital-imgbox {
+    float: left;
+    width: 280px;
+    height: 170px;
+}
+.hospital-desc .hospital-item .hospital-imgbox img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.hospital-desc .hospital-item .hospital-content {
+    float: left;
+    width: 400px;
+    margin: 0 40px;
+}
+.hospital-desc .hospital-item .hospital-content h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.hospital-desc .hospital-item .hospital-content p {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.hospital-desc .hospital-item .hospital-content .feedback {
+    margin-top: 20px;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dt {
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dt img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dd {
+    float: left;
+    width: 338px;
+    height: 36px;
+    margin: 7px 0 0 10px;
+    line-height: 36px;
+    text-indent: 20px;
+    background: url(../images/talk.png) no-repeat left center;
+}
+.hospital-desc .hospital-item .booking {
+    float: right;
+    width: 140px;
+}
+.hospital-desc .hospital-item .booking ul {
+    margin-top: 30px;
+}
+.hospital-desc .hospital-item .booking ul li {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #00bfcd;
+}
+.hospital-desc .hospital-item .booking ul li .booking-btn {
+    display: block;
+    width: 114px;
+    height: 32px;
+    margin: 20px auto 0;
+    font-weight: 500;
+    line-height: 32px;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+    color: #fff;
+    border-radius: 3px;
+    background: #00bfcd;
+}
+.hospital-desc .hospital-item .booking ul li .booking-btn:hover {
+    background: #06adb9;
+}
+
+/*底部banner*/
+.bottom-banner {
+    width: 100%;
+    min-width: 1000px;
+    height: 332px;
+    margin-top: 20px;
+}

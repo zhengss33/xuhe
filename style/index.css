@@ -86,12 +86,13 @@
     clear: both;
     width: 100%;
     min-width: 1000px;
+    margin-top: 75px;
     border-bottom: 1px solid #ebeef2;
 }
 .exam .exam-inner {
     width: 1000px;
-    min-height: 180px;
-    margin: 75px auto 0;
+    min-height: 195px;
+    margin: 0 auto;
     background: url(../images/index_jm.jpg) no-repeat left bottom;
 }
 .exam-inner .exam-desc {
@@ -146,7 +147,7 @@
     clear: both;
     width: 100%;
     min-width: 1000px;
-    padding: 70px 0;
+    margin-top: 75px;
     text-align: center;
 }
 .medical a{
@@ -205,6 +206,7 @@
     clear: both;
     width: 100%;
     min-width: 1000px;
+    margin-top: 75px;
     padding: 60px 0;
     background: #f3f6f8;
 }
@@ -270,11 +272,12 @@
     clear: both;
     width: 100%;
     min-width: 1000px;
+    margin-top: 75px;
 }
 .database .database-inner{
     width: 1000px;
     min-height: 380px;
-    margin: 80px auto 0;
+    margin: 0 auto;
     background: url(../images/index_huiy.jpg) no-repeat right bottom;
     overflow: hidden;
 }
