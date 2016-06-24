@@ -15,7 +15,7 @@
 .medical{
     width: 100%;
     min-width: 1000px;
-    margin: 75px 0;
+    margin-top: 75px;
 }
 .medical .medical-inner{
     width: 1000px;
@@ -85,13 +85,14 @@
     width: 100%;
     min-width: 1000px;
     height: 400px;
+    margin-top: 75px;
 }
 
 /*优势*/
 .advantage{
     width: 100%;
     min-width: 1000px;
-    margin: 70px 0;
+    margin-top: 75px;
     overflow: hidden;
 }
 .advantage h2{
@@ -146,6 +147,7 @@
     clear: both;
     width: 100%;
     min-width: 1000px;
+    margin-top: 75px;
     padding-top: 55px;
     padding-bottom: 100px;
     background: #f3f6f8;
@@ -188,7 +190,7 @@
     clear: both;
     width: 100%;
     min-width: 1000px;
-    margin-top: 70px;
+    margin-top: 75px;
     overflow: hidden;
 }
 .hospital h2{
