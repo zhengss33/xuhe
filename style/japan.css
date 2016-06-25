@@ -80,12 +80,30 @@
 }
 
 /*医疗器械*/
-.apparatus{
-    clear: both;
+.apparatus {
     width: 100%;
-    min-width: 1000px;
-    height: 400px;
+    height: 405px;
     margin-top: 75px;
+    background: url(../images/japan_banner02.jpg) no-repeat center center #f3f6f8;
+}
+.apparatus .apparatus-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.apparatus-inner .apparatus-desc {
+    float: right;
+    width: 450px;
+    margin: 125px 45px 0 0;
+}
+.apparatus-inner .apparatus-desc h2 {
+    font-size: 32px;
+    line-height: 35px;
+    color: #00bfcd;
+}
+.apparatus-inner .apparatus-desc p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 28px;
 }
 
 /*优势*/
