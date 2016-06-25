@@ -95,31 +95,31 @@
     margin-top: 75px;
     overflow: hidden;
 }
-.advantage h2{
+.advantage .advantage-inner{
+    width: 1000px;
+    margin:0 auto;  
+}
+.advantage .advantage-inner h2{
     font-size: 32px;
     line-height: 35px;
     color: #00bfcd;
     text-align: center;
 }
-.advantage span{
+.advantage .advantage-inner span{
     display: block;
     font-size: 16px;
     color: #cecece;
     text-align: center;
 }
-.advantage .advantage-desc{
-    width: 1000px;
-    margin:0 auto;
+.advantage .advantage-inner .advantage-desc{
+    margin-right: -80px;
 }
-.advantage-desc .advantage-figure{
+.advantage-inner .advantage-desc .advantage-figure{
     float: left;
     width: 280px;
     margin: 40px 80px 0 0;
 }
-.advantage-desc .item3,.advantage .advantage-desc .item6{
-    margin-right: 0;
-}
-.advantage-desc .advantage-figure dt{
+.advantage-inner .advantage-desc .advantage-figure dt{
     width: 100%;
     height: 152px;
     display: table-cell;
@@ -127,16 +127,16 @@
     vertical-align: middle;
     overflow: hidden;
 }
-.advantage-desc .advantage-figure dt img{
+.advantage-inner .advantage-desc .advantage-figure dt img{
     max-width: 100%;
     max-height: 100%;
 }
-.advantage-desc .advantage-figure dd{
+.advantage-inner .advantage-desc .advantage-figure dd{
     margin-top: 5px;
     font-size: 12px;
     line-height: 24px;
 }
-.advantage-desc .advantage-figure dd h3{
+.advantage-inner .advantage-desc .advantage-figure dd h3{
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
