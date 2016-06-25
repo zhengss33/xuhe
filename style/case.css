@@ -1,0 +1,99 @@
+/*头部banner*/
+.top-banner {
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    height: 330px;
+}
+.top-banner a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*医疗案例*/
+.case {
+    width: 100%;
+    min-width: 1000px;
+    margin-top: 75px;
+}
+.case .case-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.case .case-inner h2 {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #00bfcd;
+}
+.case .case-inner span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #cecece;
+}
+.case-inner .case-desc {
+    margin-top: 40px;
+    margin-right: -60px;
+}
+.case-inner .case-desc .case-figure {
+    float: left;
+    width: 470px;
+    margin-right: 60px;
+    margin-bottom: 55px;
+}
+.case-inner .case-desc .case-figure dt {
+    overflow: hidden;
+    width: 470px;
+    height: 282px;
+}
+.case-inner .case-desc .case-figure dt img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.case-inner .case-desc .case-figure dd h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.case-inner .case-desc .case-figure dd p {
+    font-size: 12px;
+    line-height: 24px;
+}
+.case-inner .case-page {
+    overflow: hidden;
+    width: 260px;
+    margin: 0 auto;
+}
+.case-inner .case-page .case-page-prev {
+    float: left;
+}
+.case-inner .case-page .case-page-next {
+    float: right;
+}
+.case-inner .case-page a {
+    width: 114px;
+    height: 34px;
+    line-height: 34px;
+    transition: none;
+    transition: background .5s;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    background: linear-gradient(#fafafa, #f2f2f2);
+}
+.case-inner .case-page a:hover {
+    background: linear-gradient(#fff, #f7f7f7);
+    box-shadow: inset 0 1px 0 white, 0 1px 0 rgba(255, 255, 255, .05);
+}
+
+/*底部banner*/
+.bottom-banner {
+    width: 100%;
+    min-width: 1000px;
+    height: 332px;
+    margin-top: 75px;
+}
