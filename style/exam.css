@@ -111,36 +111,36 @@
     position: absolute;
 }
 .procedure-inner .procedure-info ul .step2 {
-    top: 146px;
     left: 0;
+    top: 146px;
 }
 .procedure-inner .procedure-info ul .step3 {
-    top: 146px;
     left: 220px;
+    top: 146px;
 }
 .procedure-inner .procedure-info ul .step4 {
-    top: 146px;
     left: 460px;
+    top: 146px;
 }
 .procedure-inner .procedure-info ul .step5 {
-    top: 146px;
     left: 680px;
+    top: 146px;
 }
 .procedure-inner .procedure-info ul .step6 {
+    left: 680px;
     top: 327px;
-    left: 0;
 }
 .procedure-inner .procedure-info ul .step7 {
+    left: 460px;
     top: 327px;
-    left: 220px;
 }
 .procedure-inner .procedure-info ul .step8 {
+    left: 220px;
     top: 327px;
-    left: 460px;
 }
 .procedure-inner .procedure-info ul .step9 {
+    left: 0;
     top: 327px;
-    left: 680px;
 }
 .procedure-inner .procedure-info ul li a {
     display: block;
@@ -166,16 +166,16 @@
     background-position: -680px -146px;
 }
 .procedure-inner .procedure-info ul .step6:hover a {
-    background-position: 0 -327px;
+    background-position: -680px -327px;
 }
 .procedure-inner .procedure-info ul .step7:hover a {
-    background-position: -220px -327px;
-}
-.procedure-inner .procedure-info ul .step8:hover a {
     background-position: -460px -327px;
 }
+.procedure-inner .procedure-info ul .step8:hover a {
+    background-position: -220px -327px;
+}
 .procedure-inner .procedure-info ul .step9:hover a {
-    background-position: -680px -327px;
+    background-position: 0 -327px;
 }
 .procedure-inner .procedure-info ul li span {
     margin-top: 10px;
