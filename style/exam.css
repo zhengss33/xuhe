@@ -1,0 +1,291 @@
+/*头部banner*/
+.top-banner {
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    height: 330px;
+}
+.top-banner a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*精密体检*/
+.exam {
+    overflow: hidden;
+    width: 100%;
+    min-width: 1000px;
+    margin-top: 75px;
+}
+.exam .exam-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.exam .exam-inner h2 {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #00bfcd;
+}
+.exam .exam-inner span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #cecece;
+}
+.exam .exam-inner p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #797979;
+}
+.exam .exam-inner .exam-desc {
+    margin-right: -80px;
+}
+.exam-inner .exam-desc .exam-figure {
+    float: left;
+    width: 280px;
+    margin: 40px 80px 0 0;
+}
+.exam-inner .exam-desc .exam-figure dt {
+    display: table-cell;
+    overflow: hidden;
+    width: 100%;
+    height: 152px;
+    text-align: center;
+    vertical-align: middle;
+}
+.exam-inner .exam-desc .exam-figure dt img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.exam-inner .exam-desc .exam-figure dd {
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #797979;
+}
+.exam-inner .exam-desc .exam-figure dd h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #3c3c3c;
+}
+
+/*体检流程*/
+.procedure {
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 75px;
+    background: #00bfcd;
+}
+.procedure .procedure-inner {
+    width: 1000px;
+    margin: 50px auto 90px;
+}
+.procedure-inner h2 {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+}
+.procedure-inner span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.procedure-inner .procedure-info {
+    position: relative;
+    width: 819px;
+    height: 407px;
+    margin: 38px auto 0;
+    background: url(../images/liucheng.png) no-repeat center center;
+}
+.procedure-inner .procedure-info ul {
+    text-align: center;
+}
+.procedure-inner .procedure-info ul li {
+    position: absolute;
+}
+.procedure-inner .procedure-info ul .step2 {
+    top: 146px;
+    left: 0;
+}
+.procedure-inner .procedure-info ul .step3 {
+    top: 146px;
+    left: 220px;
+}
+.procedure-inner .procedure-info ul .step4 {
+    top: 146px;
+    left: 460px;
+}
+.procedure-inner .procedure-info ul .step5 {
+    top: 146px;
+    left: 680px;
+}
+.procedure-inner .procedure-info ul .step6 {
+    top: 327px;
+    left: 0;
+}
+.procedure-inner .procedure-info ul .step7 {
+    top: 327px;
+    left: 220px;
+}
+.procedure-inner .procedure-info ul .step8 {
+    top: 327px;
+    left: 460px;
+}
+.procedure-inner .procedure-info ul .step9 {
+    top: 327px;
+    left: 680px;
+}
+.procedure-inner .procedure-info ul li a {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.procedure-inner .procedure-info ul li:hover a {
+    background: url(../images/liucheng_hover.png) no-repeat;
+}
+.procedure-inner .procedure-info ul .step1:hover a {
+    background-position: 0 0;
+}
+.procedure-inner .procedure-info ul .step2:hover a {
+    background-position: 0 -146px;
+}
+.procedure-inner .procedure-info ul .step3:hover a {
+    background-position: -220px -146px;
+}
+.procedure-inner .procedure-info ul .step4:hover a {
+    background-position: -460px -146px;
+}
+.procedure-inner .procedure-info ul .step5:hover a {
+    background-position: -680px -146px;
+}
+.procedure-inner .procedure-info ul .step6:hover a {
+    background-position: 0 -327px;
+}
+.procedure-inner .procedure-info ul .step7:hover a {
+    background-position: -220px -327px;
+}
+.procedure-inner .procedure-info ul .step8:hover a {
+    background-position: -460px -327px;
+}
+.procedure-inner .procedure-info ul .step9:hover a {
+    background-position: -680px -327px;
+}
+.procedure-inner .procedure-info ul li span {
+    margin-top: 10px;
+}
+
+/*推荐医院*/
+.hospital {
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1000px;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+.hospital h2 {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #00bfcd;
+}
+.hospital span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #cecece;
+}
+.hospital  .hospital-desc {
+    width: 1000px;
+    margin: 40px auto 0;
+}
+.hospital-desc .hospital-item {
+    width: 100%;
+    margin-bottom: 80px;
+}
+.hospital-desc .hospital-item .hospital-imgbox {
+    float: left;
+    width: 280px;
+    height: 170px;
+}
+.hospital-desc .hospital-item .hospital-imgbox img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.hospital-desc .hospital-item .hospital-content {
+    float: left;
+    width: 400px;
+    margin: 0 40px;
+}
+.hospital-desc .hospital-item .hospital-content h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.hospital-desc .hospital-item .hospital-content p {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.hospital-desc .hospital-item .hospital-content .feedback {
+    margin-top: 20px;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dt {
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dt img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.hospital-desc .hospital-item .hospital-content .feedback dd {
+    float: left;
+    width: 338px;
+    height: 36px;
+    margin: 7px 0 0 10px;
+    line-height: 36px;
+    text-indent: 20px;
+    background: url(../images/talk.png) no-repeat left center;
+}
+.hospital-desc .hospital-item .booking {
+    float: right;
+    width: 140px;
+}
+.hospital-desc .hospital-item .booking ul {
+    margin-top: 30px;
+}
+.hospital-desc .hospital-item .booking ul li {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #00bfcd;
+}
+.hospital-desc .hospital-item .booking ul li .booking-btn {
+    display: block;
+    width: 114px;
+    height: 32px;
+    margin: 20px auto 0;
+    font-weight: 500;
+    line-height: 32px;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+    color: #fff;
+    border-radius: 3px;
+    background: #00bfcd;
+}
+.hospital-desc .hospital-item .booking ul li .booking-btn:hover {
+    background: #06adb9;
+}
