@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" type="text/css" href="style/europe.css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/booking.js"></script>
+    <script src="js/jquery.toolbar.js"></script>
 </head>
 <body>
     <!-- 头部 -->
@@ -109,7 +112,7 @@
                     <ul>
                         <li>￥15000/天</li>
                         <li>20天</li>
-                        <li><a class="booking-btn" href="#">立即预订</a></li>
+                        <li><a class="booking-btn" href="javascript:;">立即预订</a></li>
                     </ul>
                 </div>
             </div>
@@ -129,7 +132,7 @@
                     <ul>
                         <li>￥15000/天</li>
                         <li>20天</li>
-                        <li><a class="booking-btn" href="#">立即预订</a></li>
+                        <li><a class="booking-btn" href="javascript:;">立即预订</a></li>
                     </ul>
                 </div>
             </div>
@@ -158,5 +161,53 @@
             </div>
         </div>
     </div>
+
+    <!--遮罩-->
+    <div class="mask" id="j_mask"></div>
+
+    <!-- 弹出层 -->
+    <div class="popup" id="j_popup">
+        <span class="close"></span>
+        <div class="popup-inner">
+            <h4>立即预定</h4>
+            <div class="form-box">
+                <form name="booking" action="" method="post">
+                    <p><input class="popup-txt" type="text" name="usename" value="姓名"/></p>
+                    <p><input class="popup-txt" type="text" name="phone" value="电话"/></p>
+                    <p><input class="popup-txt" type="text" name="email" value="邮箱"/></p>
+                    <textarea class="popup-txt">您的留言</textarea>
+                    <div class="submit-btn">
+                        <input id="booking-submit" type="button" value="提交预定"/>
+                    </div>
+                </form>            
+            </div>
+        </div>
+    </div>
+
+        <!-- 工具栏 -->
+    <div class="toolbar">
+        <a class="toolbar-item toolbar-qq" href="javascript:;">
+            <i class="toolbar-icon icon-qq"></i>
+        </a>
+        <a class="toolbar-item toolbar-chat" href="javascript:;">
+            <i class="toolbar-icon icon-chat"></i>
+        </a>
+        <a class="toolbar-item toolbar-weibo" href="javascript:;">
+            <i class="toolbar-icon icon-weibo"></i>
+        </a>
+        <a class="toolbar-item toolbar-weixin" href="javascript:;">
+            <i class="toolbar-icon icon-weixin"></i>
+            <div class="toolbar-code"></div>
+        </a>
+        <a class="toolbar-item toolbar-backtop" id="backtop" href="javascript:;" style="display: none">
+            <i class="toolbar-icon icon-top"></i>
+        </a>
+    </div>
+
+    <script type="text/javascript">
+        $(function(){
+            $("#backtop").backTop();
+        });
+    </script>
 </body>
 </html>
