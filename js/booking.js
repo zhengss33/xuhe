@@ -10,6 +10,11 @@ $(function(){
             this.value = this.defaultValue;
         }
     });
+    $("#booking-submit").click(function(){
+        $mask.hide();
+        $popUp.hide();
+        window.location = "http://zhengss33.github.io/xuhe/japan.html";
+    });
 });
 
 /*立即预订遮罩*/
