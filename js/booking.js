@@ -11,8 +11,8 @@ $(function(){
         }
     });
     $("#booking-submit").click(function(){
-        $mask.hide();
-        $popUp.hide();
+        $("#j_mask").hide();
+        $("#j_popup").hide();
         window.location = "http://zhengss33.github.io/xuhe/japan.html";
     });
 });
