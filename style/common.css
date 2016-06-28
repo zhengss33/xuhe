@@ -36,6 +36,97 @@ a:hover {
     *zoom:1;/*IE/7/6*/
 }
 
+@font-face {font-family: 'iconfont';
+    src: url(../iconfont/iconfont.eot); /* IE9*/
+    src: url(../iconfont/iconfont.eot) format('embedded-opentype'), /* IE6-IE8 */
+    url(../iconfont/iconfont.woff) format('woff'), /* chrome、firefox */
+    url(../iconfont/iconfont.ttf) format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url(../iconfont/iconfont.svg) format('svg'); /* iOS 4.1- */
+}
+[class^="icon-"],[class*=" icon-"]{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*工具栏*/
+.icon-qq:before { content: "\e600"; }
+.icon-chat:before { content: "\e604"; }
+.icon-weibo:before { content: "\e601"; }
+.icon-weixin:before { content: "\e602"; }
+.icon-top:before { content: "\e603"; }
+
+.toolbar{
+    position: fixed;
+    right: 10px;
+    bottom: 200px;
+}
+.toolbar-item{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.toolbar-qq{
+    background: #68a4e0;
+}
+.toolbar-qq:hover{
+    background: #498ed3;
+}
+.toolbar-chat{
+    background: #00bfcd;
+}
+.toolbar-chat:hover{
+    background: #0bacb8;
+}
+.toolbar-weibo{
+    background: #f77075;
+}
+.toolbar-weibo:hover{
+    background: #ef5c61;
+}
+.toolbar-weixin{
+    background: #3bc574;
+}
+.toolbar-weixin:hover{
+    background: #2aaf61;
+}
+.toolbar-backtop{
+    background: #f0b421;
+}
+.toolbar-backtop:hover{
+    background: #dca41b;
+}
+.toolbar-icon{
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+.toolbar-code{
+    position: absolute;
+    left: -138px;
+    top: 0;
+    width: 130px;
+    height: 130px;
+    background: url(../images/qrcode.png) no-repeat center center #fff;
+    border: 1px solid #e6e6e6;
+    box-shadow: -1px 2px 4px rgba(0,0,0,.3);
+    opacity: 0;
+    transform: scale(0.01);
+    transform-origin: right top;
+    transition: all 0.3s
+}
+.toolbar-weixin:hover .toolbar-code{
+    opacity: 1;
+    transform: scale(1);
+}
+
 /*头部*/
 .header {
     width: 100%;
